@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(89.71deg, rgba(10, 10, 10, 0) 0%, rgba(18, 18, 18, 0.1) 100%);
+    backdrop-filter: blur(15px);
+    z-index: 100;
+    padding: 24px;
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        &-logo {
+            width: 271px;
+            height: 53px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-menu {
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 60px;
+
+                li {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFF;
+                    transition: all 0.3s ease;
+                }
+
+                li:hover {
+                    color: #B29037;
+                }
+
+                li.current {
+                    color: #B29037;
+                }
+            }
+        }
+
+        &-call {
+            padding: 24px 54.5px;
+            background: transparent;
+            border: 1px solid #B29037;
+            color: #B29037;
+            font-weight: 400;
+            font-size: 18px;
+            leading-trim: Cap height;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+        }
+    }
+}

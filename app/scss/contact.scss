@@ -1,0 +1,396 @@
+.contact {
+    width: 100%;
+    position: relative;
+    padding: 189px 0px 100px 0px;
+
+    &__back {
+        width: 100%;
+        height: 887px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        h2 {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #B29037;
+        }
+
+        &-block {
+            display: flex;
+            gap: 40px;
+
+            .company {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .company__info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 30px;
+                    border: 1px solid #C8C8C8;
+                    background: linear-gradient(180deg, rgba(254, 254, 254, 0.1) 0%, rgba(254, 254, 254, 0.01) 100%);
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #B29037;
+                    }
+
+                    .wrap {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .item {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            span {
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                            }
+                        }
+                    }
+                }
+
+                .company__about {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 30px;
+                    border: 1px solid #C8C8C8;
+                    background: linear-gradient(180deg, rgba(254, 254, 254, 0.1) 0%, rgba(254, 254, 254, 0.01) 100%);
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #B29037;
+                    }
+
+                    .wrap {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .item {
+                            display: flex;
+                            gap: 15px;
+
+                            svg {
+                                width: 24px;
+                                height: 24px;
+                            }
+
+                            .text {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+
+                                span {
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 100%;
+                                    letter-spacing: 0%;
+                                    color: #2D2D2F;
+                                }
+
+                                p {
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0%;
+                                    color: #2D2D2F;
+                                }
+
+                                a {
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0%;
+                                    color: #B29037;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .company__people {
+                    display: flex;
+                    padding: 30px;
+                    border: 1px solid #C8C8C8;
+                    background: linear-gradient(180deg, rgba(254, 254, 254, 0.1) 0%, rgba(254, 254, 254, 0.01) 100%);
+                    width: 620px;
+                    justify-content: space-between;
+
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 24px;
+
+                        h3 {
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #B29037;
+                        }
+
+                        .wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 6px;
+
+                            span {
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                            }
+
+                            a {
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 110.00000000000001%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                                margin-top: 9px;
+                            }
+                        }
+
+                        .social {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            .element {
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+
+                                svg {
+                                    width: 32px;
+                                    height: 32px;
+                                }
+
+                                font-weight: 400;
+                                font-size: 15.63px;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                vertical-align: middle;
+                                color: #2D2D2F;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .soft {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .soft__feed {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 30px;
+                    border: 1px solid #C8C8C8;
+                    background: linear-gradient(180deg, rgba(254, 254, 254, 0.1) 0%, rgba(254, 254, 254, 0.01) 100%);
+                    backdrop-filter: blur(10px);
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #B29037;
+                    }
+
+                    .soft__feed-form {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px;
+
+                        .input__wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+
+                                span {
+                                    color: #B29037;
+                                }
+                            }
+
+                            input {
+                                width: 270px;
+                                height: 45px;
+                                background: transparent;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                                display: flex;
+                                align-items: center;
+                                padding-left: 20px;
+                                border: 1px solid #C8C8C8;
+                            }
+                        }
+
+                        .text__wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+
+                                span {
+                                    color: #B29037;
+                                }
+                            }
+
+                            textarea {
+                                width: 560px;
+                                height: 90px;
+                                resize: none;
+                                background: transparent;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #2D2D2F;
+                                padding: 15px 20px;
+                                border: 1px solid #C8C8C8;
+                            }
+                        }
+
+                        .checkbox:has(input:checked) {
+                            span {
+                                background: #B29037;
+                            }
+                        }
+
+                        .checkbox {
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+
+                            input {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0;
+                            }
+
+                            span {
+                                width: 16px;
+                                height: 16px;
+                                background: transparent;
+                                border: 1px solid #C8C8C8;
+                                transition: all 0.3s ease;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #292F36;
+                            }
+                        }
+
+                        button {
+                            width: 100%;
+                            height: 61px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: #B29037;
+                            font-weight: 400;
+                            font-size: 18px;
+                            leading-trim: Cap height;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            text-transform: uppercase;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .soft__map {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 30px;
+                    border: 1px solid #C8C8C8;
+                    background: linear-gradient(180deg, rgba(254, 254, 254, 0.1) 0%, rgba(254, 254, 254, 0.01) 100%);
+                    backdrop-filter: blur(10px);
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #B29037;
+                    }
+                    iframe{
+                        width: 560px;
+                        height: 375px;
+                    }
+                }
+            }
+        }
+    }
+}
